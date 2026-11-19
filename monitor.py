@@ -42,5 +42,5 @@ def notify(title, msg):
 
 state = in_stock()
 print(time.strftime("%H:%M:%S"), "stock =", state)
-if state:
+if True :
     notify("MINI DANY EN STOCK", "Le sac est dispo, fonce : " + PRODUCT)
